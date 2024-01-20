@@ -1,0 +1,18 @@
+
+
+.div-nav-box {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.div-nav {
+    color: white;
+}
+
+.div-logo {
+    width: 70px;
+    height: 50px;
+    background-color: red;
+}
