@@ -1,8 +1,8 @@
 
 
 .div-nav-box {
+    padding-top: 20px;
     background-color: black;
-    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,4 +15,22 @@
     width: 70px;
     height: 50px;
     background-color: red;
+}
+
+.main-box {
+    background-color: red;
+    width: 100%;
+    height: 1000px;
+}
+
+.footer-box {
+    background-color: black;
+    color: white; 
+    height: 100px;
+}
+
+.div-foot-box {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
 }
