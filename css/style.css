@@ -52,30 +52,60 @@
 .img-redes {
     width: 3.5vw;
 }
+
+.img-redes:hover {
+    scale: 1.5;
+}
+
 .box-nav {
     display: flex;
     justify-content: space-around;
-    padding-top: 4vh;
-    padding-bottom: 6vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    height: 8vh;
+    align-items: center;
 
     .href-nav {
         text-decoration: none;
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     li {
         list-style-type: none;
+        width: 30vw;
     }
 }
 
+.a-index:hover {
+    height: 100%;
+    width: 30vw;
+    padding-top: 3vh;
+    border-radius: 50%;
+    border: solid 2px rgb(255, 255, 255);
+    background-color: #5FB6D9;
+
+    a {
+        color: #000000;
+        font-size: x-large ;
+        font-family: cursive;
+    }
+}
+
+hr {
+    width: 60%;
+}
 .box-img-grande {
     max-width: 60vw;
     margin-left: 20vw;
+    padding-top: 3vh;
 
     .img-grande {
         width: 100%;
         border-radius: 50%;
     }
 }
+
 
 .box-img-portafolio {
     display: flex;
@@ -88,6 +118,15 @@
         margin-bottom: 2vh;
         border-radius: 100%;    
     }
+}
+
+.img-control:hover {
+    opacity: 30%;
+    scale: 1.2;
+}
+
+.container-main {
+    margin-bottom: 5vh;
 }
 
 .container-footer {
@@ -109,9 +148,17 @@
     width: 35vw;
 }
 
+
 .titulo-footer {
     text-align: center;
     color: black;
+    background-color: aliceblue;
+    border-right: solid 2px rgb(0, 0, 0);
+}
+
+.contacto {
+    padding-left: 2vw;
+    border-left: solid 2px rgb(0, 0, 0);
 }
 
 .img-redes-footer {
@@ -127,8 +174,8 @@
 .box-copy {
     display: flex;
     justify-content: space-around;
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding-left: 5vw;
 
     .texto-copy {
