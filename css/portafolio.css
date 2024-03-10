@@ -1,0 +1,12 @@
+.titulo-portafolio {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+.box-img-mantenimiento {
+    max-width: 90vw;
+    padding-left: 5vw;
+
+    img {
+        width: 100%;
+    }
+}

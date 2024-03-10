@@ -1,0 +1,16 @@
+.container-form {
+    background-color:#5FB6D9 ;
+    color: black;
+    width: 50vw;
+    margin-left: 25vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.box-form {
+    text-align: center;
+}
